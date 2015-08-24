@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		96671A1D1B8AB8E0000C4287 /* UIImage+Jason.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Jason.h"; sourceTree = "<group>"; };
-		96671A1E1B8AB8E0000C4287 /* UIImage+Jason.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Jason.m"; sourceTree = "<group>"; };
+		96671A1D1B8AB8E0000C4287 /* Jason+UIImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jason+UIImage.h"; sourceTree = "<group>"; };
+		96671A1E1B8AB8E0000C4287 /* Jason+UIImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Jason+UIImage.m"; sourceTree = "<group>"; };
+		96671A1F1B8AC84C000C4287 /* Jason+Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jason+Singleton.h"; sourceTree = "<group>"; };
+		96671A201B8AC8BF000C4287 /* Jason+UINavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jason+UINavigationController.h"; sourceTree = "<group>"; };
+		96671A211B8AC8BF000C4287 /* Jason+UINavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Jason+UINavigationController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -22,8 +25,11 @@
 		96671A1C1B8AB8C0000C4287 /* jasonkit */ = {
 			isa = PBXGroup;
 			children = (
-				96671A1D1B8AB8E0000C4287 /* UIImage+Jason.h */,
-				96671A1E1B8AB8E0000C4287 /* UIImage+Jason.m */,
+				96671A1F1B8AC84C000C4287 /* Jason+Singleton.h */,
+				96671A1D1B8AB8E0000C4287 /* Jason+UIImage.h */,
+				96671A1E1B8AB8E0000C4287 /* Jason+UIImage.m */,
+				96671A201B8AC8BF000C4287 /* Jason+UINavigationController.h */,
+				96671A211B8AC8BF000C4287 /* Jason+UINavigationController.m */,
 			);
 			path = jasonkit;
 			sourceTree = "<group>";
