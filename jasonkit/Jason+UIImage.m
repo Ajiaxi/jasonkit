@@ -6,7 +6,7 @@
 //
 //
 
-#import "UIImage+Jason.h"
+#import "Jason+UIImage.h"
 
 @implementation UIImage (Jason)
 - (id)initWithView:(UIView*) view {

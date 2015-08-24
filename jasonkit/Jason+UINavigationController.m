@@ -6,6 +6,7 @@
 //
 //
 
+#import "Jason+UIImage.h"
 #import "Jason+UINavigationController.h"
 
 @implementation UINavigationController (Jason)
@@ -17,9 +18,9 @@
     
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     [[UINavigationBar appearance] setBarTintColor:color];
-    [[UINavigationBar appearance] setBackgroundImage:[self imageWithColor:color] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageWithColor:color] forBarMetrics:UIBarMetricsDefault];
     [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], NSForegroundColorAttributeName,nil]];
-    [[UINavigationBar appearance] setShadowImage:[self imageWithColor:[UIColor clearColor]]];
+    [[UINavigationBar appearance] setShadowImage:[UIImage imageWithColor:[UIColor clearColor]]];
     
     [[UITableView appearance] setSeparatorInset:UIEdgeInsetsMake (0, 0, 0, 0)];
     [[UITableView appearance] setSectionIndexBackgroundColor:[UIColor clearColor]];
